@@ -34,3 +34,20 @@ document.getElementById('clicked').addEventListener('click',function(){
 
     ulList.appendChild(listItem);
 })
+
+//input btn clicked
+document.getElementById('input-btn').addEventListener('click',function(){
+    let inputField = document.getElementById('input-field').value;
+    let inputFieldText = parseInt(inputField);
+    if(inputField < 5){
+        inputFieldText = inputFieldText + 1;
+        
+    }
+    inputField.value = inputFieldText;
+    /* for(let i=1; i<5; i++){
+        inputFieldText = inputFieldText + i;
+        inputField.value = inputFieldText;
+        console.log(inputField);
+    } */
+    
+})

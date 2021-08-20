@@ -28,7 +28,7 @@ console.log(mainPart) */
 document.getElementById('clicked').addEventListener('click',function(){
     const ulList = document.getElementById('ul-list');
     const listItem = document.createElement('li');
-    let number = 1;
+    let number = 0;
     dynamicNumber = number+1;
     listItem.innerText = 'list-'+dynamicNumber;
 
